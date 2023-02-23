@@ -1,6 +1,6 @@
 * {
     padding: 0%;
-    margin:0%;
+    margin: 0%;
 }
 
 .menu li {
@@ -14,25 +14,25 @@
     text-decoration: none;
 }
 
-.menu .row {
+.menu {
     display: grid;
     padding: 20px;
 }
 
-.menu .leftbuttons li a{
+.menu .leftbuttons li a {
     padding: 10px;
     margin-top: 1px;
     float: left;
 }
 
-.menu .rightbuttons li{
+.menu .rightbuttons li {
     margin-right: 10px;
     padding: 10px;
     margin-top: -38px;
     float: right;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
 
@@ -53,7 +53,7 @@
     grid-template-columns: 33% 33% 33%;
 }
 
-.row1 img{
+.row1 img {
     padding: 13px;
 }
 
