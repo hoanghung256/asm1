@@ -1,0 +1,64 @@
+* {
+    padding: 0%;
+    margin:0%;
+}
+
+.menu li {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu .row {
+    display: grid;
+    padding: 20px;
+}
+
+.menu .leftbuttons li a{
+    padding: 10px;
+    margin-top: 1px;
+    float: left;
+}
+
+.menu .rightbuttons li{
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: -38px;
+    float: right;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.background {
+    background-color: rgb(233, 233, 233);
+    padding: auto;
+}
+
+.text {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: white;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.row1 img{
+    padding: 13px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgb(244, 244, 244);
+}
