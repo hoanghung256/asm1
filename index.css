@@ -1,3 +1,13 @@
+.toptext1 {
+    position: absolute;
+    top: 200px;
+    left: 19px; 
+}
+
+.banner img{
+    display:absolute;
+    width:100%;
+}
 .row .columns a{
     text-decoration:none;
 }

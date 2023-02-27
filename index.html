@@ -23,14 +23,24 @@
             <li><a class="nav-link text-light" href="#">HELP</a></li>
         </ul>
     </div>
-    <div class="toptext">
-        <h3>Find a place to stay.</h3>
-        <p>Rent from people in over 34,000 cities and 192 countries.</p>
 
-        <hr>
+    <div class="banner">
+        <img
+            src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png?fbclid=IwAR16krSFVW3p1PNovDuuFWh7OPfVzHhYGFN0wOgx6p701SsW8k801wRuluY">
 
-        <h3>Neighborhhood Guides</h3>
-        <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+        <div class="toptext">
+            <div class="toptext1">
+                <h3>Find a place to stay.</h3>
+                <p>Rent from people in over 34,000 cities and 192 countries.</p>
+            </div>
+
+            <hr>
+
+            <div class="toptext2">
+                <h3>Neighborhhood Guides</h3>
+                <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+            </div>
+        </div>
     </div>
     <div class="container1">
         <div class="img row">
@@ -83,7 +93,7 @@
         .nav a {
             font-size: 8px;
         }
-
+        
         p {
             font-size: 9px;
         }
@@ -92,8 +102,25 @@
             font-size: 10px;
         }
 
-        .row h3,p,a{
-            margin-left:7px;
+        .row h3,
+        p,a {
+            margin-left: 7px;
+        }
+        @media only screen and (max-width:986px){
+            .banner img{
+                display:none;
+            }
+            .banner .toptext .toptext1{
+                margin-top: -140px;
+            }
+            .banner .toptext .toptext2{
+                margin-top: 20px;
+            }
+
+            hr{
+                margin-top: 60px;
+            }
+
         }
 
 
@@ -103,22 +130,35 @@
             .nav a {
                 font-size: 15px;
             }
-            .row h3,p,a{
+
+            .row h3,
+            p, a {
                 margin-left: 7px;
             }
 
-            p,a {
+            p, a {
                 font-size: 15px;
             }
 
         }
+
+    
 
         /* For desktop: */
         @media only screen and (min-width: 987px) {
             .row a {
                 font-size: 13px;
             }
+            .banner {
+                width:100%;
+            }
 
+            .toptext1 {
+                position: absolute;
+                top: 200px;
+                left: 19px;
+                color: white; 
+            }
         }
     </style>
 </body>
