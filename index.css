@@ -1,81 +1,27 @@
-* {
-    padding: 0%;
-    margin: 0%;
+.row .columns a{
+    text-decoration:none;
+}
+.toptext{
+    padding: 15px;
 }
 
-.menu li {
-    list-style-type: none;
-    text-align: center;
-    display: inline;
+.toptext p{
+    margin-left:0px ;
+}
+img {
+    padding: 8px;
 }
 
-.menu ul li a {
-    color: black;
-    text-decoration: none;
+.row {
+    padding: 9px;
 }
 
-.menu {
-    display: grid;
-    padding: 20px;
+.nav {
+    padding:-5px;
 }
 
-.menu .leftbuttons li a {
-    padding: 10px;
-    margin-top: 1px;
-    float: left;    
-}
 
-.menu .rightbuttons li {
-    margin-right: 10px;
-    padding: 10px;
-    margin-top: -38px;
-    float: right;
-}
 
-.banner img {
-    width: 100%;
-}
 
-.image {
-    background-color: rgb(233, 233, 233);
-    margin-top:-5px;
-}
 
-.text1 {
-    position: absolute;
-    top: 200px;
-    left: 43px;
-    color: white;
-}
 
-.row1 {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
-
-.text2 {
-    margin-left: 40px;
-    padding:3px;
-}
-
-.row1 img {
-    margin-left: 30px;
-    padding: 13px;
-}
-
-.row2 {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    background-color: rgb(244, 244, 244);
-    padding: 30px;
-}
-
-.row2 a{
-    text-decoration: none;
-}
-
-.row2{
-    position: absolute;
-    left: -8px;
-    padding: 50px;
-}
