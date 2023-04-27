@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLYHWYC7GM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GLYHWYC7GM');
+    </script>
 </head>
 
 <body>
@@ -62,10 +71,12 @@
         </div>
 
         <div class="search-bar">
-            <form class="d-flex display-row-reverse">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-light" type="button">Search</button>
-            </form>
+            <div class="d-flex flex-row-reverse">
+                <form class="d-inline-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-light" type="button">Search</button>
+                </form>
+            </div>
         </div>
     </div>
 
@@ -287,14 +298,6 @@
                 display: block;
             }
 
-
-            .search-bar form {
-                width: 200px;
-                margin-left: 160px;
-                margin-top: 20px;
-                height: 50px;
-                padding: 10px;
-            }
             .list {
                 display: none;
             }
@@ -306,7 +309,8 @@
             }
 
             .footer {
-                display: list-item;
+                display: grid;
+                grid-template-columns: 1fr;
             }
         }
 
@@ -326,13 +330,13 @@
                 width: 130px;
             }
 
-            .search-bar {
-                margin-left: 350px;
+            
 
-            }
-            .search-bar form {
+            /* .search-bar form {
                 width: 300px;
-            }
+            } */
+
+            
             .footer{
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);

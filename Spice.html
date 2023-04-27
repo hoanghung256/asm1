@@ -61,10 +61,12 @@
         </div>
 
         <div class="search-bar">
-            <form class="d-flex display-row-reverse">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-light" type="button">Search</button>
-            </form>
+            <div class="d-flex flex-row-reverse">
+                <form class="d-inline-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-light" type="button">Search</button>
+                </form>
+            </div>
         </div>
     </div>
     <div class="page-body">
@@ -345,6 +347,11 @@
             .items p {
                 font-size: smaller;
             }
+
+            .footer {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
         }
 
 
@@ -361,11 +368,6 @@
 
             .dropdown button {
                 width: 130px;
-            }
-
-            .search-bar {
-                margin-left: 350px;
-
             }
 
             .search-bar form {

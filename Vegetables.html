@@ -62,10 +62,12 @@
         </div>
 
         <div class="search-bar">
-            <form class="d-flex display-row-reverse">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-light" type="button">Search</button>
-            </form>
+            <div class="d-flex flex-row-reverse">
+                <form class="d-inline-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-light" type="button">Search</button>
+                </form>
+            </div>
         </div>
     </div>
     <div class="page-body">
@@ -336,6 +338,7 @@
             }
 
             .container-body {
+                display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 margin-left: -300px;
             }
@@ -351,6 +354,11 @@
 
             .items p {
                 font-size: smaller;
+            }
+
+            .footer {
+                display: grid;
+                grid-template-columns: 1fr;
             }
         }
 
@@ -370,13 +378,14 @@
                 width: 130px;
             }
 
-            .search-bar {
-                margin-left: 350px;
-
-            }
-
             .search-bar form {
                 width: 300px;
+            }
+
+            .items{
+                display: flex;
+                /* flex-direction: column;
+                flex-wrap: wrap; */
             }
 
             .container-body{

@@ -32,13 +32,13 @@
     display: none;
 }
 
-.search-bar{
+/* .search-bar{
     margin-top:-39px;
-}
+} */
 form{
     width:400px;
-    margin-left: 750px;
-    margin-top: 44px;
+    /* margin-left: 750px;
+    margin-top: 44px; */
 }
 
 .btn {

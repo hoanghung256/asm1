@@ -112,7 +112,7 @@ form{
     padding: 30px;
 }
 .container-body{
-    display:inline-grid;
+    display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:30px;
     padding:20px;
@@ -125,6 +125,9 @@ form{
     border:1px solid rgba(0, 0, 0, 0.1);
     padding: 15px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .products-link{
