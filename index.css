@@ -17,7 +17,6 @@
 .banner img {
     width: 100%;
     margin-top: -150px;
-    
 }
 
 .bar {
@@ -32,13 +31,8 @@
     display: none;
 }
 
-/* .search-bar{
-    margin-top:-39px;
-} */
-form{
+.search-bar form{
     width:400px;
-    /* margin-left: 750px;
-    margin-top: 44px; */
 }
 
 .btn {

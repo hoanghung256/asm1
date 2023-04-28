@@ -79,6 +79,11 @@
                 <div class="sidebar">
                     <ul>
                         <li>
+                            <i class="fa-solid fa-home"></i>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <hr>
+                        <li>
                             <i class="fa-solid fa-carrot"></i>
                             <a href="Vegetables.html">Vegetables</a>
                         </li>
@@ -201,23 +206,23 @@
 
     <div class="footer">
         <div class="column1">
-            <h5>ABOUT OUR MARKET</h5>
-            <div>
-                <h6>ADDRESS:</h6>
-                <p>FPT University in Danang</p>
-            </div>
-            <div>
-                <h6>Hotline:</h6>
-                <p>09001394312</p>
-            </div>
-            <div>
-                <h6>Worrking time:</h6>
-                <p>7AM to 20PM</p>
-            </div>
+            <div class="noi-dung-footer"><b>ABOUT OUR MARKET</b>
+                <div>
+                    <b>ADDRESS:</b>
+                    <p>FPT University in Danang</p>
+                </div>
+                <div>
+                    <b>Hotline:</b>
+                    <p>09001394312</p>
+                </div>
+                <div>
+                    <b>Worrking time:</b>
+                    <p>7AM to 20PM</p>
+                </div></div>
         </div>
 
         <div class="column2">
-            <h5>CUSTOMER SUPPORT</h5>
+            <b>CUSTOMER SUPPORT</b>
             <ul>
                 <li><a href="#">Policy membership card</a></li>
                 <li><a href="#">Return and exchange policy</a></li>
@@ -227,18 +232,14 @@
             </ul>
         </div>
         <div class="column3">
-            <h5>CONTACT</h5>
+            <b>CONTACT</b>
             <div class="icon">
                 <a href="#"><i class="bi bi-facebook"></i></a>
                 <a href="#"><i class="bi bi-instagram"></i></a>
                 <a href="#"><i class="bi bi-youtube"></i></a>
                 <a href="#"><i class="bi bi-envelope"></i></a>
             </div>
-
         </div>
-
-
-
     </div>
 
 
@@ -259,13 +260,7 @@
                 height: fit-content;
             }
 
-            .search-bar form {
-                width: 200px;
-                margin-left: 160px;
-                margin-top: 20px;
-                height: 50px;
-                padding: 10px;
-            }
+            
             .dropdown .btn i{
                 margin-left:5px;
             }
@@ -301,11 +296,8 @@
 
             .dropdown-list {
                 position: absolute;
-                border: 0.1px solid pink;
-                border-radius: 15px;
+                border-radius: 0 0 15px 15px;
                 background-color: pink;
-                margin-top: 10px;
-                margin-left: px;
                 width: 110%;
                 padding:3px;
                 display: none;
@@ -330,7 +322,6 @@
             .introduce {
                 margin-right: 7cm;
                 margin: 0 0 0 0;
-
             }
 
             .footer {
@@ -346,6 +337,7 @@
             .items img {
                 width: 100px;
                 height: 100px;
+                width:100%;
             }
 
             .items a {
@@ -374,21 +366,27 @@
                 margin-top: 60px;
             }
 
-            .dropdown button {
-                width: 130px;
-            }
-
             .search-bar form {
                 width: 300px;
             }
 
-            .items{
-                display: flex;
-                /* flex-direction: column;
-                flex-wrap: wrap; */
+            .dropdown button {
+                width: 130px;
+            }
+
+            .dropdown-list{
+                width:130%;
+            }
+
+            .items img{
+                width:100%;
             }
 
             .container-body{
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .footer{
                 grid-template-columns: repeat(3, 1fr);
             }
 

@@ -59,7 +59,7 @@ form{
     margin-right: 89rem;
     border: 0.1px solid black;
     border-radius: 30px;
-    height: 290px;
+    /* height: 290px; */
     border-top-style: hidden;
     
 }
@@ -74,7 +74,6 @@ form{
     border: 0.1px solid rgb(151, 176, 235);
     width: 250px;
     border-radius: 80px/50px;
-
 }
 
 .content h4 {
